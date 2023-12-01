@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bettermovements",
+  "name": "Better Movements",
+  "description": "Better player Movements",
+  "version": "${0.0.4}",
+  "mcversion": "${1.12.2}",
+  "url": "https://discord.gg/baKFT47xFQ",
+  "updateUrl": "",
+  "authorList": ["Ethan, Protoxy, DelEnd"],
+  "credits": "The Forge and FML guys, for making this example",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
