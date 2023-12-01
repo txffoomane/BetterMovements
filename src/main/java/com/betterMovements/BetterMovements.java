@@ -12,7 +12,7 @@ public class BetterMovements
 {
     public static final String MODID = "bettermovements";
     public static final String NAME = "Better movements";
-    public static final String VERSION = "0.0.3";
+    public static final String VERSION = "0.0.4";
 
     private static Logger logger;
 
@@ -25,7 +25,7 @@ public class BetterMovements
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        RenderTickEvent renderTickEvent = new RenderTickEvent();
+        CameraRoll renderTickEvent = new CameraRoll();
         renderTickEvent.setRollSensitivity(0.04f);  // Задайте желаемую чувствительность при стрейфах
 
         MinecraftForge.EVENT_BUS.register(renderTickEvent);

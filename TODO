@@ -1,0 +1,9 @@
+Hello
+I will describe here what I would like to do
+
+-Camera tilts when turning the mouse and strafing (Completed)
+-Player inertia (In progress)
+-Ability to customize the mod through config files (Not started)
+-Disable FOV changes when player speed changes
+
+Simply put, I want to implement movement like in the game Escape from Tarkov

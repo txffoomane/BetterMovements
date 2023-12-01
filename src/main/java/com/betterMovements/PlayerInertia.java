@@ -14,7 +14,7 @@ public class PlayerInertia {
     private static final float RUN_SPEED = 0.11f; // Максимальная скорость при беге
     private static final float SNEAK_SPEED = 0.1f; // Максимальная скорость при присяде
     private static final float ACCELERATION = 0.0009f; // Ускорение перехода от ходьбы к бегу
-    private static final float SMOOTHNESS = 0.005f; // Плавность разгона и сброса
+    private static final float SMOOTHNESS = 1.0f; // Плавность разгона и сброса
 
     private static float currentSpeed = WALK_SPEED; // Текущая скорость игрока
 

@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class RenderTickEvent {
+public class CameraRoll {
 
     public static float EXTRA_ROLL_Z = 0;
     private float lastYaw;
